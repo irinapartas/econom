@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 600;
+    background-color: #fff;
+    color: #333;
+}
+
+
+/* News */
+
+.news_section {
+    background-color: #f7f2f7;
+}
+
+.news_title {
+    padding: 20px 0;
+}
+
+.news_title h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.news_intro {
+    margin: 15px 0;
+}
+
+.news_intro img {
+    width: 100%;
+    height: auto;
+}
+
+.news_inf {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.news_inf h3 {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.news_inf span {
+    display: block;
+    margin: 20px 0;
+    color: #343a49;
+    font-weight: 600;
+}
+
+.news_inf p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.news_inf a {
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+/* News Separate */
+
+.magistr_news {
+    background-color: #fff;
+}
+
+.img_news {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-right: 20px;
+}
+
+.magistr_news h2 {
+    font-family: "Arial", sans-serif;
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.magistr_news h3 {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.magistr_news p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.magistr_news .news_bold {
+    font-weight: 600;
+}
+
+.magistr_news a {
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #01a2a6;
+}

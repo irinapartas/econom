@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 600;
+    background-color: #fff;
+    color: rgb(53, 53, 53);
+}
+
+div {
+    display: block;
+    position: relative;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arial', sans-serif;
+    color: #44425a;
+}
+
+.nopadding {
+    padding: 0px !important;
+}
+
+.section_title h2 {
+    font-weight: 600;
+}
+
+.section_subtitle {
+    font-size: 14px;
+    color: #6c6a74;
+    text-align: center;
+    margin-top: 66px;
+    line-height: 2.14;
+}
+
+.about {
+    width: 100%;
+    padding-top: 94px;
+    padding-bottom: 111px;
+}
+
+.about_row:not(:last-child) {
+    margin-bottom: 99px;
+}
+
+.about_content {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about_image {
+    width: 100%;
+}
+
+.about_image img {
+    max-width: 100%;
+}
+
+.about_title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #44425a;
+}
+
+.about_text {
+    margin-top: 20px;
+}
+
+
+/* Count */
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.counting-sec {
+    padding: 40px 0;
+    width: 100%;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.col i {
+    font-size: 50px;
+}
+
+.col span {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.num {
+    font-size: 40px;
+    margin: 20px 0;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+
+/* Btn */
+
+.button {
+    display: inline-block;
+    width: auto;
+    height: 47px;
+    background: #01a2a6;
+    transition: all 200ms ease;
+}
+
+.button a {
+    display: block;
+    position: relative;
+    padding-left: 33px;
+    padding-right: 33px;
+    line-height: 47px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #006b6d;
+}
+
+.btn {
+    width: 100%;
+    background: #fff;
+    padding-top: 85px;
+    padding-bottom: 101px;
+}
+
+.about_btn {
+    margin-top: 10px;
+}
+
+
+/* Igor */
+
+#igor {
+    width: 100%;
+    /* 100vh — задает высоту вашему приложению равной высоте области просмотра.  */
+    height: 50vh;
+    background: url("../img/news/pgu1.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#igor:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#igor .igor-container {
+    /* flex - это сокращенное свойство, определяющее способность гибкого элемента растягиваться или сжиматься для заполнения собой доступного свободного пространства */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+}
+
+#igor h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.966);
+}
+
+#igor h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.952);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 575px) {
+    p {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .section_title h2 {
+        font-size: 20px;
+    }
+    .section_subtitle {
+        font-size: 13px;
+        margin-top: 47px;
+    }
+    .about_row:not(:last-child) {
+        margin-bottom: 66px;
+    }
+    .about_title {
+        font-size: 24px;
+    }
+    .about_text {
+        margin-top: 33px;
+    }
+}
